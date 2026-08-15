@@ -1,28 +1,28 @@
 {
   "schema": 2,
-  "updated": "2026-06-28T00:00:00Z",
+  "updated": "2026-08-15T00:00:00Z",
   "packages": [
     {
       "id": "naplan_visualiser",
       "key": "naplan_visualiser",
-      "name": "NAPLAN Visualiser",
+      "name": "NAPLAN Evidence Explorer",
       "category": "NAPLAN",
       "description": "Core MOSAIC package for analysing NAPLAN item-level evidence.",
       "type": "core",
       "core": true,
       "defaultInstalled": true,
-      "latestVersion": "2.0.0",
+      "latestVersion": "2.1.4",
       "compatibility": {
         "minimum": "2.2.1",
         "maximum": null
       },
-      "published": "2026-06-28T00:00:00Z",
+      "published": "2026-08-15T00:00:00Z",
       "downloadUrl": null,
       "sha256": null,
       "downloadSize": null,
       "installedSize": null,
       "channel": "stable",
-      "releaseNotes": "Debut public edition."
+      "releaseNotes": "Adds Priority observations and privacy-preserving contribution export for the optional NAPLAN Network package."
     },
     {
       "id": "patr_adaptive",
@@ -45,6 +45,28 @@
       "installedSize": null,
       "channel": "stable",
       "releaseNotes": "Added self-contained package architecture."
+    },
+    {
+      "id": "naplan_network",
+      "key": "naplan_network",
+      "name": "NAPLAN Network",
+      "category": "NAPLAN",
+      "description": "Optional privacy-preserving multi-school NAPLAN analysis, contextual comparison, focus-area and inquiry-reporting package.",
+      "type": "optional",
+      "core": false,
+      "defaultInstalled": false,
+      "latestVersion": "1.0.0",
+      "compatibility": {
+        "minimum": "2026.0.7",
+        "maximum": null
+      },
+      "published": "2026-08-15T00:00:00Z",
+      "downloadUrl": "https://github.com/tjhinchliffe/MOSAIC-Packages/releases/download/naplan_network-v1.0.0/naplan_network-v1.0.0.zip",
+      "sha256": "817f74f6f175e96044539ca8729973954f0fc3b0c198c5c2a0fd28e7545b768d",
+      "downloadSize": 265140,
+      "installedSize": 481738,
+      "channel": "stable",
+      "releaseNotes": "Initial optional release with privacy-preserving contribution loading, network comparisons, contextual ICSEA estimates, focus areas and Word inquiry briefs."
     }
   ]
 }
