@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updated": "2026-06-28T00:00:00Z",
+  "updated": "2026-08-16T00:00:00Z",
   "packages": [
     {
       "id": "naplan_visualiser",
@@ -45,6 +45,28 @@
       "installedSize": null,
       "channel": "stable",
       "releaseNotes": "Added self-contained package architecture."
+    },
+    {
+      "id": "naplan_network",
+      "key": "naplan_network",
+      "name": "NAPLAN Network",
+      "category": "NAPLAN",
+      "description": "Combine privacy-preserving school contribution workbooks to investigate aggregate NAPLAN evidence across a network.",
+      "type": "optional",
+      "core": false,
+      "defaultInstalled": false,
+      "latestVersion": "1.0.0",
+      "compatibility": {
+        "minimum": "2026.0.7",
+        "maximum": null
+      },
+      "published": "2026-08-16T00:00:00Z",
+      "downloadUrl": "https://github.com/tjhinchliffe/MOSAIC-Packages/releases/download/naplan_network-v1.0.0/naplan_network-v1.0.0.zip",
+      "sha256": "8b4824d9c27c0b97b6261b19b6b9bc946fe8723e37c8bc79e4a1e8f8edcc5008",
+      "downloadSize": 265125,
+      "installedSize": 481717,
+      "channel": "stable",
+      "releaseNotes": "Initial optional release with privacy-preserving multi-school contribution analysis, network and school comparisons, contextual ICSEA estimates, filter-aware focus areas and personalised Word inquiry briefs."
     }
   ]
 }
